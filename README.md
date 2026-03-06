@@ -1,16 +1,44 @@
-# React + Vite
+# Proyecto de Maquetación con React y Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto utiliza React junto con Vite para crear una aplicación web con un diseño moderno. Incluye configuraciones básicas de ESLint y soporte para HMR (Hot Module Replacement).
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para proyectos web modernos.
+- **CSS**: Estilos personalizados para los componentes.
 
-## React Compiler
+## Estructura del proyecto
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+```
+public/         # Archivos estáticos
+src/            # Código fuente
+  ├── assets/   # Recursos como imágenes
+  ├── components/ # Componentes reutilizables
+  ├── pages/    # Vistas principales
+  ├── styles/   # Archivos CSS
+```
 
-## Expanding the ESLint configuration
+## Autor
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Nombre**: [Irwin Colmenarez Castillo ]
+- **GitHub**: [irwincol]
+
+## Cómo ejecutar el proyecto
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/irwincol/maquetacion-react.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
