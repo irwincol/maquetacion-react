@@ -1,10 +1,8 @@
 import "../styles/NavBar.css";
 export function NavBar() {
     return(
-         <header class="header">
+         <header className="header">
             COMPONENTE UNO
         </header>
-
-
-    )
+    );
 }

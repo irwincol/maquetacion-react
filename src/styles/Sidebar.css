@@ -1,45 +1,48 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+.sidebar{
+
+width: 350px; /* Aumentar el ancho del sidebar */
+height: 100vh; /* Altura completa */
+background: #c9ae9ec4; /* Fondo marrón/taupe oscuro */
+display: flex;
+justify-content: center; /* Centrar contenido horizontalmente */
+align-items: center; /* Centrar contenido verticalmente */
+padding-top: 20px; /* Espaciado superior */
+margin-right: 0; /* Eliminar margen derecho */
+
 }
 
-/* ── Sidebar izquierdo ── */
-    .sidebar {
-      width: 25%;
-      background-color: #b8a99a;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh; /* Full height of the viewport */
-      float: left; /* Align to the left */
-    }
+/* card dentro del sidebar */
 
-    /* ── Tarjeta dentro del sidebar (Componente Tres) ── */
-    .card {
-      background-color: #fff;
-      border-radius: 12px;
-      width: 100%;
-      overflow: hidden;
-      margin-top: 20px;
-    }
+.sidebarcard{
 
-    .card header {
-      background-color: #e8e0d8;
-      padding: 30px 10px;
-      text-align: center;
-      font-size: 13px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
+width: 250px; /* Aumentar el ancho para igualar a las tarjetas de Componente Dos */
+height: 320px; /* Incrementar un poco la altura total del componente */
+border-radius: 16px; /* Bordes redondeados *//
+background: #fff; /* Fondo blanco */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+overflow: hidden;
+display: flex;
+flex-direction: column; /* Estructura vertical */
+}
 
-    .card h2 {
-      padding: 20px 10px;
-      text-align: center;
-      font-size: 13px;
-      text-transform: uppercase;
-      color: #555;
-    }
+.sidebarcard header {
+    background: #d9d0c8; /* Fondo gris-beige más oscuro */
+    flex: 1.1; /* Incrementar el espacio del header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300; /* Texto más ligero */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    border: 1px solid  #bba18f; /* Agregar un borde sólido del color del fondo del sidebar */
+}
+
+.sidebarcard h2 {
+    background: #fff; /* Fondo blanco puro */
+    flex: 0.9; /* Reducir el espacio del cuerpo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400; /* Texto más prominente */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    border: 1px solid #bba18f; /* Agregar un borde sólido del color del fondo del sidebar */
+}

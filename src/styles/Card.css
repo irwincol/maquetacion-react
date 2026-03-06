@@ -8,44 +8,39 @@
    
     .fila-tarjetas {
       display: flex;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 90%; /* Remaining height after NavBar */
+      align-items: center; /* Centra las tarjetas verticalmente */
+      margin-top: 50px; /* Espaciado desde el header */
     }
 
     /* ── Tarjeta grande (Componente Dos) ── */
     .tarjeta {
-      flex: 1;
-      width: 45%; /* Each card takes 45% of the width */
-      height: 80%; /* Adjust height as needed */
-      background-color: #fff;
-      border-radius: 12px;
+      width: 350px; /* Aumentar el ancho de las tarjetas */
+      height: 350px; /* Incrementar un poco la altura total de las tarjetas */
+      border: 1px solid #ccc;
+      border-radius: 16px; /* Bordes redondeados más pronunciados */
       overflow: hidden;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid #ccc; /* Optional border */
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+      flex-direction: column; /* Estructura vertical */
+      background: #fff;
+      margin-top: 85px;
     }
 
     .tarjeta header {
-      background-color: #d9d0c8;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 13px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      background: #d9d0c8; /* Fondo gris-beige más oscuro */
+      flex: 0.9; /* Reducir el espacio del header */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 300; /* Texto más ligero */
+      text-transform: uppercase; /* Texto en mayúsculas */
     }
 
     .tarjeta h2 {
-      flex: 1;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 13px;
-      text-transform: uppercase;
-      color: #555;
+      background: #fff; /* Fondo blanco puro */
+      flex: 1.1; /* Incrementar el espacio del cuerpo blanco */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400; /* Texto más prominente */
+      text-transform: uppercase; /* Texto en mayúsculas */
     }

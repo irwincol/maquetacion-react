@@ -1,17 +1,23 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+.MainViewContainer {
+    display: flex;
+    flex-direction: row; /* Divide en barra lateral y contenido principal */
+    min-height: 100vh;
+    background: #f0ece4; /* Fondo beige cálido */
 }
 
-/* MainView occupies 75% of the screen width */
-.MainViewContainer {
-    width: 75%;
-    float: right; /* Align to the right of the Sidebar */
-    height: 100vh; /* Full height of the viewport */
+/* contenedor del lado derecho */
+.contenido{
+    flex: 1; /* Ocupa el espacio restante */
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    padding: 20px;
+    background: #f0ece4; /* Fondo beige cálido */
+}
+
+/* contenedor de los componentes dos */
+.contenedor-componentes{
+    display: flex;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 80px; /* Mayor separación entre las tarjetas */
+    margin-top: 40px; /* Más separación desde el header */
 }
