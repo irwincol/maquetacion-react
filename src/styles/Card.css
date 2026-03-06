@@ -33,6 +33,7 @@
       align-items: center;
       font-weight: 300; /* Texto más ligero */
       text-transform: uppercase; /* Texto en mayúsculas */
+       border:2px solid #cac2bb;
     }
 
     .tarjeta h2 {
@@ -43,4 +44,5 @@
       align-items: center;
       font-weight: 400; /* Texto más prominente */
       text-transform: uppercase; /* Texto en mayúsculas */
+       border:2px solid #cac2bb;
     }

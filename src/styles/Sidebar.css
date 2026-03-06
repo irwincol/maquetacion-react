@@ -17,9 +17,7 @@ margin-right: 0; /* Eliminar margen derecho */
 
 width: 250px; /* Aumentar el ancho para igualar a las tarjetas de Componente Dos */
 height: 320px; /* Incrementar un poco la altura total del componente */
-border-radius: 16px; /* Bordes redondeados *//
-background: #fff; /* Fondo blanco */
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+border-radius: 16px; /* Bordes redondeados */
 overflow: hidden;
 display: flex;
 flex-direction: column; /* Estructura vertical */
@@ -33,7 +31,7 @@ flex-direction: column; /* Estructura vertical */
     align-items: center;
     font-weight: 300; /* Texto más ligero */
     text-transform: uppercase; /* Texto en mayúsculas */
-    border: 1px solid  #bba18f; /* Agregar un borde sólido del color del fondo del sidebar */
+    border:1px solid #cac2bb;
 }
 
 .sidebarcard h2 {
@@ -44,5 +42,5 @@ flex-direction: column; /* Estructura vertical */
     align-items: center;
     font-weight: 400; /* Texto más prominente */
     text-transform: uppercase; /* Texto en mayúsculas */
-    border: 1px solid #bba18f; /* Agregar un borde sólido del color del fondo del sidebar */
+    border:1px solid #cac2bb;
 }

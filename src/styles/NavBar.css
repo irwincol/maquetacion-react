@@ -11,6 +11,7 @@
     text-transform: uppercase; /* Texto en mayúsculas */
     border-bottom-left-radius: 8px; /* Bordes redondeados inferiores */
     border-bottom-right-radius: 8px; 
+    border:2px solid #cac2bb;
 
 
 }
